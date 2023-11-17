@@ -69,7 +69,7 @@
             </h2>
 
             <div>
-            <p>FORmulaTRANslation es el lenguaje de programación más antiguo y que continúa en uso. Creada por John Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel, matemáticas y estadísticas.
+            <p>Formula translation es el lenguaje de programación más antiguo y que continúa en uso. Creada por John Backus en 1957, esta herramienta fue desarrollada para la computación científica de alto nivel, matemáticas y estadísticas.
 
                 A día de hoy, este lenguaje se sigue usando en la industria automovilística, aeroespacial, gubernamental y la investigación. Por ejemplo, es muy útil para el pronóstico de los servicios meteorológicos.</p>
             <p>En 1959 se desarrollo Cobol, que está detrás de la mayoría de los sistemas de transacciones de negocio de los procesos de las tarjetas de crédito, ATMs (Modo de Transferencia Asíncrona), telefonía, sistemas hospitalarios, gobierno, sistemas automatizados y señales de tráfico.
@@ -85,22 +85,25 @@
         <section class="video_historia">
             <h2>Un breve video para complementar lo visto</h2>
 
-            <div class="contendor_video">
-                 <video width="100%" poster="../imagenes/img-video.jpg">
+            <div class="contenedor_video">
+                 <video id="miVideo" width="100%" poster="../imagenes/img-video.jpg">
                 <source src="../video/historia-Comp.mp4" type = "video/mp4">
                 <source src="../video/historia-Comp.ogv" type="video/ogv">
                  </video>
+
+                 <div  class="barra_reproductora">
+                    <button  id="playBtn">
+                        <img src="../imagenes/play.svg" alt="">
+                    </button>
+                    <button id="pauseBtn">
+                        <img src="../imagenes/pausa.svg" alt="">
+                    </button>
+                    <p id="duracionVideo"> Duracion video 4:41</p>
+                </div>
+
             </div>
 
-            <div  class="barra_reproductora">
-                <button>
-                    <img src="../imagenes/play.svg" alt="">
-                </button>
-                <button>
-                    <img src="../imagenes/pausa.svg" alt="">
-                </button>
-                <p> Duracion video 4:41</p>
-            </div>
+          
     
         </section>
         

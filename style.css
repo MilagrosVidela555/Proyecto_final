@@ -121,6 +121,7 @@ h2{
 
 .contenedor_historia{
     padding: 100px 20px;
+    padding-bottom: 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,9 +157,15 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px
+    padding: 100px 0px;
     
 }
+.contenedor_video{
+    padding: 4px;
+   background-color: black;
+   width: 102%;
+}
+
 
 .barra_reproductora{
     background-color: #1d1d1d;
@@ -166,16 +173,24 @@ h2{
     padding: 20px 5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-.contenedor_video{
-    padding: 5px;
-    background-color: black;
-    width: 70%;
+.barra_reproductora p{
+    color: #ffffff;
+    margin-right: 1.5%;
 }
+#pauseBtn{
+    margin-right: 60%; 
+}
+button{
+    box-shadow: 2px 3px #678983;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #E6DDC4;
+    color:#181D31 ;
+    width: 9%;
 
-
-
+}
 
 /* --------------------footer------------*/
 
@@ -204,7 +219,7 @@ footer h3 {
     padding-bottom: 20px;
 }
 
-/* -------- párrafo  del footer------ */
+/* -------- parrafo  del footer------ */
 footer p {
     margin: 10px 0;
     font-size: 18px;
