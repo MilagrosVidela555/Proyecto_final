@@ -1,19 +1,22 @@
 *{
     font-family: 'Montserrat', sans-serif; 
     margin: 0;
+    
 }
 
 body{
     background-color: #181D31;
-}
+
+} 
+
 
 /*-------------------barra de inicio/navegación-----------*/
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 4%;
+    margin-right: 3%;
 }
 ul{
     display: flex;
@@ -28,7 +31,6 @@ ul{
     padding: 10px;
     background-color: #E6DDC4;
     color:#181D31 ;
-    font-weight: 300;
 }
 
 /*--------------imagen de fondo----------------------*/
@@ -48,10 +50,12 @@ header {
 
 h1 {
     text-shadow: 2px 2px rgb(128,128,128), 6px 6px  rgb(0, 0, 0);
+    text-align: center;
 }
 
 /*-------------------HOJA INICIO--------------------*/
-/*--------------------------------main-----------------*/
+
+/*-------------------------main-----------------*/
 h2{
     color: rgb(103, 137, 131);
     text-shadow:  2px 2px  rgb(0, 0, 0);
@@ -88,6 +92,7 @@ h2{
     max-width: 100%;
     height: auto;
 }
+
 /*-------------parrafo--------------*/
 
 .tarjeta_inicio p{
@@ -102,9 +107,9 @@ h2{
 
 /*------------boton----------*/
 .tarjeta_inicio a {
+    text-decoration: none;
     color: #F0F5E4;
     background-color: #181D31;
-    text-decoration: none;
     box-shadow: 2px 3px #678983;
     text-align: center;
     border-radius: 10px;
@@ -116,8 +121,7 @@ h2{
 
 /*-----------------FIN DE HOJA  INCIO------------*/
 
-
-/*-------------HOJA HISTORIA INCIO---------*/
+/*----------------HOJA HISTORIA INCIO---------*/
 
 .contenedor_historia{
     padding: 100px 20px;
@@ -166,6 +170,9 @@ h2{
    width: 102%;
 }
 
+.contenedor_video video{
+    width: 100%;
+}
 
 .barra_reproductora{
     background-color: #1d1d1d;
@@ -180,7 +187,7 @@ h2{
     margin-right: 1.5%;
 }
 #pauseBtn{
-    margin-right: 60%; 
+    margin-right: 55%; 
 }
 button{
     box-shadow: 2px 3px #678983;
@@ -188,8 +195,51 @@ button{
     padding: 10px;
     background-color: #E6DDC4;
     color:#181D31 ;
-    width: 9%;
+    width: 10%;
 
+}
+
+/*--------------------FIN DE HOJAS HISTORIA---------------*/
+
+/*--------------------INICIO DE HOJA JUEGO-------------*/
+
+.contenedor_juego{
+    padding: 100px 20px;
+}
+
+.card_play{
+    width: 275px;
+    height: 400px;
+    display: flex;
+    border: 2px solid black;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.card_play p{
+    color: #E6DDC4;
+}
+.contenedor_texto, .contenedor_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor_img{
+    padding: 35px;
+}
+.card_play img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn_reiniciar{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 255px;
 }
 
 /* --------------------footer------------*/
@@ -200,7 +250,7 @@ footer {
     color: #181D31;
     padding: 40px;
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
 }
 
@@ -215,13 +265,14 @@ footer h3 {
     margin: 0;
     font-size: 14px;
     text-align: center;
-    padding-right: 450px;
     padding-bottom: 20px;
+    margin-left: 50px;
 }
 
 /* -------- parrafo  del footer------ */
 footer p {
-    margin: 10px 0;
-    font-size: 18px;
+    margin: 0;
+    font-size: 16px;
+    margin-left: auto;
 }
 
