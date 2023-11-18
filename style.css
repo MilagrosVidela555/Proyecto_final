@@ -146,6 +146,7 @@ h2{
     font-size: 40px;
     text-align: center;
     color: #678983;
+
 }
 .historia_p{
     width: 45%;
@@ -163,6 +164,9 @@ h2{
     align-items: center;
     padding: 100px 0px;
     
+}
+.video_historia h2{
+    text-align: center;
 }
 .contenedor_video{
     padding: 4px;
