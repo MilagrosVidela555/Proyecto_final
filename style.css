@@ -1,6 +1,6 @@
 *{
     font-family: 'Montserrat', sans-serif; 
-    margin: 0;
+    margin: auto 0;
     
 }
 
@@ -23,29 +23,41 @@ ul{
     width: 300px;
     justify-content: space-around;
     list-style: none;
+
 }
+li:active{
+    transform: translate(3px, 2px);
+}
+
 .link{
     text-decoration: none;
     box-shadow: 2px 3px #678983;
     border-radius: 10px;
     padding: 10px;
     background-color: #E6DDC4;
-    color:#181D31 ;
+    color:#181D31 ; 
+} 
+.link:active {
+    box-shadow: none;   
 }
+
 
 /*--------------imagen de fondo----------------------*/
 
 header {
-    background: url('./imagenes/codigo.jpg') center/cover;
-    height: 500px; 
-    color: #eeeeee; 
-    font-size: 28px; 
+    background: url('./imagenes/codigo.jpg') fixed;
+    background-size: cover;
+    height: 500px;
+    color: #eeeeee;
+    font-size: 28px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left:  10%; 
-    padding-right:  10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-position: 50% 0; 
 }
+
 
 
 h1 {
@@ -117,6 +129,11 @@ h2{
     margin-top: auto; 
     margin-bottom: 20px;
     width: 30%;
+}
+
+.tarjeta_inicio a:active{
+    transform: translate(3px, 2px);
+    box-shadow:none;
 }
 
 /*-----------------FIN DE HOJA  INCIO------------*/
@@ -202,6 +219,11 @@ button{
     width: 10%;
 
 }
+button:active{
+    transform: translate(3px, 2px);
+    box-shadow: none;
+}
+
 
 /*--------------------FIN DE HOJAS HISTORIA---------------*/
 
