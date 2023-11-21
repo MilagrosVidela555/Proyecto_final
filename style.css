@@ -44,7 +44,7 @@ li:active{
 
 /*------------blanco--------*/
 .compu1{
-    animation: caida1 ease-in ;
+    animation: caida;
     animation-timing-function: ease-in ;
     animation-duration: 3s;
     
@@ -53,15 +53,13 @@ li:active{
 
 /*----------azul------------*/
 .compu2{
-    animation: caida1;
+    animation: caida;
     animation-timing-function: ease-in ;
     animation-duration: 4s;
   
 }
 
-
-/*------------blanco--------*/
-@keyframes caida1 {
+@keyframes caida {
     0% {
         transform: translate(0,-10px);
         opacity:0;
@@ -80,24 +78,7 @@ li:active{
     }
 }
 
-@keyframes caida2 {
-    0% {
-        transform: translate(0,-5px);
-        opacity:0;
-    }
-    25% {
-        transform: translate(0,-10px);
-        opacity:0;
-    }
-    50% {
-        transform: translate(0,0);
-        opacity:1;
-    }
-    100% {
-        transform: translate(0,0);
-        opacity:1;
-    }
-}
+
 
 /*----------azul-----------
 @keyframes caida2 {
@@ -330,6 +311,9 @@ button:active{
 .card_soltar{
     border: 2px solid black;
     background-color: grey;
+}
+.card_soltar:hover{
+    background-color: #1d1d1d;
 }
 
 .card_play p{
