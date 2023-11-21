@@ -79,33 +79,6 @@ li:active{
 }
 
 
-
-/*----------azul-----------
-@keyframes caida2 {
-    0% {transform: translate(0,-15px);
-        opacity:0;
-    }
-    15% {
-        transform: translate(0,-10px);
-        opacity:0;
-    }
-    25% {
-        transform: translate(0,0px);
-        opacity:0;
-    }
-    50% {
-        transform: translate(0,0);
-        opacity:1;
-    }
-    75%{
-
-    }
-    100% {
-        transform: translate(0,0);
-        opacity:1;
-    }
-}
--*/
 /*--------------imagen de fondo----------------------*/
 
 header {
@@ -168,7 +141,7 @@ h2{
 /*--------img dentro del section--*/
 .tarjeta_inicio img {
     max-width: 100%;
-    height: auto;
+    margin: 0;
 }
 
 /*-------------parrafo--------------*/
